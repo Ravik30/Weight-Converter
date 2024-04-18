@@ -55,9 +55,17 @@ input:focus{
     color: #f1331e;
     display: inline-block;
 }
-button{
-    border: 1px solid #0366a8;
-    padding: 5%;
-    border-radius: 10px;
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
 }
